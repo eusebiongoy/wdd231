@@ -62,11 +62,11 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 .active {
-    color: yellow;
+    color: yellowgreen;
 }
 .container {
     display: flex;
@@ -83,13 +83,21 @@ h2{
     text-align: center;
     background-color: #ddd;
 }
-footer nav{
-    background-color: whitesmoke;
-
+.flex-container{
+    background-color: aliceblue;
+    border: 3px;
+    display: flex;
 }
-.socialmedia a img {
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    float: right;
+.flex-item{
+    width: 350px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.5rem;
+    background-color: #ddd;
+    color: #333 ;
+    display: flex;
+}
+footer {
+    background-color: solid #36454f;
+    text-align: center;
 }
