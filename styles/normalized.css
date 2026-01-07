@@ -140,6 +140,6 @@ h2{
     /* Ensures padding/border are included in the 100% width calculation */
 }
 footer {
-    background-color: solid aliceblue;
+    background-color: aliceblue;
     text-align: center;
 }
