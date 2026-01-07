@@ -83,10 +83,18 @@ h2{
     text-align: center;
     background-color: #ddd;
 }
-.flex-container{
+.flex-container {
     background-color: aliceblue;
     border: 3px;
     display: flex;
+}
+.flex-box{
+    background-color: gray;
+    border: 1px;
+    display: flex;
+    width: 350;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 .flex-item{
     width: 350px;
@@ -95,7 +103,43 @@ h2{
     padding: 0.5rem;
     background-color: #ddd;
     color: #333 ;
+}
+.flex-list {
     display: flex;
+    /* Enable Flexbox for the parent container */
+    flex-direction: row;
+    /* Stack items vertically (default for lists is column-like) */
+    padding: 0.5rem;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    width: 100%;
+    /* Ensure the list takes the full width of its parent */
+    list-style: none;
+    /* Remove default bullet points/numbers */
+    gap: 35px;
+
+}
+
+.flex-list li {
+    /* Flex items stretch by default along the main axis. 
+       When flex-direction is 'column', the main axis is vertical.
+       To stretch horizontally (cross axis), no specific property is needed 
+       if the parent has a defined width.
+       The 'stretch' value is the default for align-items. 
+    */
+    background-color: aliceblue;
+    
+    padding: 10px;
+    /* Add some internal spacing */
+    border: 1px solid #ccc;
+    /* Add a border for visibility */
+    margin-bottom: 5px;
+    /* Add space between items */
+    width: 100%;
+    /* Explicitly setting width to 100% ensures it respects the container's full width */
+    box-sizing: border-box;
+    /* Ensures padding/border are included in the 100% width calculation */
 }
 footer {
     background-color: solid #36454f;
