@@ -73,7 +73,10 @@ header span {
 h1 {
     margin-left: 10px;
 }
-
+h2{
+    padding: 10px;
+    margin: 10px;
+}
 .button-container {
     display: flex;
     /* Makes the container a flex container */
