@@ -101,9 +101,11 @@ button {
 }
 
 button:hover {
-    background-color: maroon;
+    background-color: blanchedalmond;
 }
-
+.current{
+    background-color: yellowgreen;
+}
 #output-message {
     text-align: center;
     margin-top: 20px;
@@ -119,17 +121,15 @@ button:hover {
 }
 
 .section {
-    flex: 1;
+    
     /* Both sections take up equal available space */
     padding: 20px;
     box-sizing: border-box;
     /* Ensures padding/border is included in the width */
     text-align: center;
-    display: flex;
+    display: block;
     /* Center content vertically and horizontally within each section */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 
     /* Smooth color transition for JS */
 }
@@ -172,5 +172,5 @@ footer {
 }
 
 .social a:hover {
-    background-color: lightblue;
+    background-color: blanchedalmond;
 }
