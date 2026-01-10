@@ -138,6 +138,11 @@ button:hover {
     background-color: #eee;
     color: black;
 }
+.left-section p{
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
 
 .right-section {
     background-color: #ddd;
