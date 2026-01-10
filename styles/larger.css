@@ -17,16 +17,16 @@
         grid-template-columns: 24px auto;
     }
 
-}
-/* larger/wider views **************************/
-@media (min-width: 640px) {
-    nav {
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #eee;
+    }
+
+    .navigation ul {
         display: flex;
     }
 
-    nav a {
-        flex: 1 0 auto;
-        /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
-		in this example, the items will not shrink but can grow to fill the space at natural content width*/
-
-}}
+    .navigation a {
+        border: none;
+    }
+}

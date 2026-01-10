@@ -1,7 +1,8 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
@@ -15,7 +16,7 @@ header img {
     display: block;
     width: 100%;
     height: auto;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
 }
 
 header span {
@@ -38,108 +39,134 @@ header span {
     content: "\00D7";
     font-size: 3em;
 }
-h1 {
-    padding: 0;
-    font-size: 2rem;
-    text-align: start;
+
+.navigation {
+    display: none;
 }
 
-nav {
-    background-color: #36454f;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-
-nav a {
+.navigation.show {
     display: block;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: black;
     text-decoration: none;
+    border-bottom: solid 1px #ddd;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.navigation a:hover {
+    background-color: orange;
 }
 
-.active {
-    color: yellowgreen;
+.navigation li.current {
+    background-color: #eee;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.button-container {
+    display: flex;
+    /* Makes the container a flex container */
+    justify-content: center;
+    /* Centers the buttons within the container */
+    gap: 10px;
+    /* Adds space between the buttons */
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Changes the cursor to a pointer on hover */
+    background-color: #04AA6D;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: maroon;
+}
+
+#output-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
 }
 .container {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    /* Enables flexbox layout */
+    width: 100%;
+    height: 100vh;
+    /* Makes container take the full viewport height */
 }
 
-.left-section .right-section {
+.section {
     flex: 1;
+    /* Both sections take up equal available space */
     padding: 20px;
-    border: 1px solid #ccc;
-}
-h2{
-    text-align: center;
-    background-color: #ddd;
-}
-.flex-container {
-    background-color: aliceblue;
-    border: 3px;
-    display: flex;
-}
-.flex-box{
-    background-color: gray;
-    border: 1px;
-    display: flex;
-    width: 350px;
-    margin: 1rem;
-    padding: 0.5rem;
-}
-.flex-item{
-    width: 350px;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 0.5rem;
-    background-color: #ddd;
-    color: #333 ;
-}
-.flex-list {
-    display: flex;
-    /* Enable Flexbox for the parent container */
-    flex-direction: row;
-    /* Stack items vertically (default for lists is column-like) */
-    padding: 0.5rem;
-    /* Remove default padding */
-    margin: 0;
-    /* Remove default margin */
-    width: 100%;
-    /* Ensure the list takes the full width of its parent */
-    list-style: none;
-    /* Remove default bullet points/numbers */
-    gap: 35px;
-
-}
-
-.flex-list li {
-    /* Flex items stretch by default along the main axis. 
-       When flex-direction is 'column', the main axis is vertical.
-       To stretch horizontally (cross axis), no specific property is needed 
-       if the parent has a defined width.
-       The 'stretch' value is the default for align-items. 
-    */
-    background-color: aliceblue;
-
-    padding: 10px;
-    /* Add some internal spacing */
-    border: 1px solid #ccc;
-    /* Add a border for visibility */
-    margin-bottom: 5px;
-    /* Add space between items */
-    width: 100%;
-    /* Explicitly setting width to 100% ensures it respects the container's full width */
     box-sizing: border-box;
-    /* Ensures padding/border are included in the 100% width calculation */
-}
-footer {
-    background-color: aliceblue;
+    /* Ensures padding/border is included in the width */
     text-align: center;
+    display: flex;
+    /* Center content vertically and horizontally within each section */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Smooth color transition for JS */
+}
+
+.left-section {
+    background-color: #eee;
+    color: black;
+}
+
+.right-section {
+    background-color: #ddd;
+    color: black;
+}
+
+footer {
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: solid #ccc 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: lightblue;
 }
