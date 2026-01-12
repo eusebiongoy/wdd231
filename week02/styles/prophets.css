@@ -39,8 +39,9 @@ h2 {
     font-size: 0.75rem;
 }
 
-p {
-    margin: 0;
+ section p {
+    margin: 1px;
+    padding: 1px;
 }
 
 .grid {
