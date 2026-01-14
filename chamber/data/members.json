@@ -4,7 +4,7 @@
         "CompanyAddress":"70, katumbi c/ Annex, Lubumbashi, DR.Congo",
         "phoneNumber":"(243)991 595 886",
         "url":"www.univel.org",
-        "imagePath":"wdd231/chamber/images/sergekal.png",
+        "imagePath":"/images/sergekal.png",
         "membershipLevel":"3",
         "name": "Serge Kalunga",
         "email": "sergekalunga@univel.org"
@@ -14,7 +14,7 @@
         "CompanyAddress": "12, Mimosas Q/Bel air c/Kampemba, Lubumbashi, DR.Congo",
         "phoneNumber": "(243)814 928 855",
         "url": "www.euselec.co",
-        "imagePath": "",
+        "imagePath": "/images/russelm.png",
         "membershipLevel": "1",
         "name": "Russel Mwema",
         "email": "russwema@euselec.co"
@@ -24,7 +24,7 @@
         "CompanyAddress": "45, Des Usines c/ Lubumbashi, Lubumbashi, DR.Congo",
         "phoneNumber": "(243)993 302 232",
         "url": "www.songelec.com",
-        "imagePath": "",
+        "imagePath": "/imges/timkal.png",
         "membershipLevel": "2",
         "name": "Timothe Lukusa",
         "email": "timolukus@songelec.com"
@@ -34,7 +34,7 @@
         "CompanyAddress": "36 Du cuivre c/ Lubumbashi, Lubumbashi, DR.Congo",
         "phoneNumber": "(243)986 579 755",
         "url": "www.cocolec.co",
-        "imagePath": "",
+        "imagePath": "/images/kadyv.jpg",
         "membershipLevel": "1",
         "name": "Yvon Kazadi",
         "email": "kazadyvona@cocolec.co"
