@@ -102,48 +102,46 @@ h1 {
     margin-left: 10px;
     text-align: left;
 }
-
-.container-grid {
-    display: grid;
-    /* Activates grid on the container */
-    grid-template-columns: 3fr 2fr 2fr;
-    /* Creates three columns of equal width */
-    gap: 5px;
-    /* Puts space between the sections */
-    background-color: #ddd;
-    column-gap: 10px;
-}
-
-h2 {
-    background-color: gray;
-    margin-top: 0;
-}
-
-.left-image {
-    float: left;
-    /* This moves the image to the left */
-    margin-right: 15px;
-    /* Adds space between the image and the text */
-    width: 100px;
-    /* Optional: Sets the image width */
-    height: auto;
-    /* Maintains aspect ratio */
+h2{
+    padding: 1px;
     margin-top: 1px;
 }
 
-.section-grid {
-    padding: 5px;
-    border: 1px solid #ccc;
-    text-align: center;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    /* Distributes space evenly between sections */
+    gap: 20px;
+    /* Adds space between the sections */
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
-.section-grid ul {
-    text-align: left;
-    list-style-type: none;
+.section {
+    flex: 1;
+    /* Makes all sections grow equally to fill the container width */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.section-grid p{
-    text-align: left;
+
+/* Optional: Basic styling for responsiveness */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        /* Stacks sections vertically on smaller screens */
+    }
 }
+.section-1 {
+    display: grid;
+    /* Makes the sub-columns inside sit side by side */
+    gap: 10px;
+    /* Adds space between the two sub-columns */
+    background-color: #f0f8ff;
+}
+
  .site-footer {
      display: flex;
      justify-content: space-between;
@@ -163,12 +161,7 @@ h2 {
      /* Adds space between sections */
  }
 
- .footer-section h3 {
-     color: #4CAF50;
-     /* Example accent color */
-     border-bottom: 1px solid #4CAF50;
-     padding-bottom: 10px;
- }
+
 
  .footer-section p,
  .footer-section address,
