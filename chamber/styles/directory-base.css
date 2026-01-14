@@ -107,7 +107,7 @@ h1 {
 h2{
     padding-top: 0;
     margin-top: 0;
-    background-color: darkolivegreen;
+    background-color: var(--bg-color);
 }
 
 .flex-container {
@@ -190,7 +190,7 @@ h2{
      text-align: center;
 
      button {
-         padding: 0.5rem;
+         padding: 0.5rem 8rem;
          font-weight: 700;
      }
  }
@@ -243,7 +243,7 @@ h2{
              margin: 0 1rem;
          }
 
-         img {
+        img {
              display: none;
          }
 
@@ -255,11 +255,6 @@ h2{
              background-color: #bbb;
          }
      }
- }
-
- img {
-     width: auto;
-     height: 75px;
  }
 
  .footer-section {
