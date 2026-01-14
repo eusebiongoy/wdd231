@@ -1,0 +1,52 @@
+[
+    {
+        "companyName":"Universal Electrical",
+        "CompanyAddress":"70, katumbi c/ Annex, Lubumbashi, DR.Congo",
+        "phoneNumber":"(243)991 595 886",
+        "url":"www.univel.org",
+        "imagePath":"wdd231/chamber/images/sergekal.png",
+        "membershipLevel":"3",
+        "name": "Serge Kalunga",
+        "email": "sergekalunga@univel.org"
+    },
+    {
+        "companyName": "Societe General electric",
+        "CompanyAddress": "12, Mimosas Q/Bel air c/Kampemba, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)814 928 855",
+        "url": "www.euselec.co",
+        "imagePath": "",
+        "membershipLevel": "1",
+        "name": "Russel Mwema",
+        "email": "russwema@euselec.co"
+    },
+    {
+        "companyName": "Songe Electric",
+        "CompanyAddress": "45, Des Usines c/ Lubumbashi, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)993 302 232",
+        "url": "www.songelec.com",
+        "imagePath": "",
+        "membershipLevel": "2",
+        "name": "Timothe Lukusa",
+        "email": "timolukus@songelec.com"
+    },
+    {
+        "companyName": "Company Congolaise D'Electricite",
+        "CompanyAddress": "36 Du cuivre c/ Lubumbashi, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)986 579 755",
+        "url": "www.cocolec.co",
+        "imagePath": "",
+        "membershipLevel": "1",
+        "name": "Yvon Kazadi",
+        "email": "kazadyvona@cocolec.co"
+    },
+    {
+        "companyName": "",
+        "CompanyAddress": "36 Du cuivre c/ Lubumbashi, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)986 579 755",
+        "url": "www.cocolec.co",
+        "imagePath": "",
+        "membershipLevel": "1",
+        "name": "Yvon Kazadi",
+        "email": "kazadyvona@cocolec.co"
+    }
+]

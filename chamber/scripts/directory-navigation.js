@@ -8,3 +8,36 @@ navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('show');
     navlinks.classList.toggle('show');
 });
+// Define an asynchronous function to fetch and display the data
+async function fetchAndDisplayMembers() {
+    const url = 'members.json'; // The path to your JSON file
+    const memberList = document.getElementById('member-list');
+
+    try {
+        // Fetch the data from the URL and wait for the response
+        const response = await fetch(url);
+
+        // Check if the request was successful (status code 200-299)
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        // Parse the response body as JSON and wait for it to complete
+        const members = await response.json();
+
+        // Iterate over the member data and create DOM elements to display it
+        members.forEach(member => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${member.name}</strong> - ${member.email}`;
+            memberList.appendChild(li);
+        });
+
+    } catch (error) {
+        // Handle any errors that occurred during the fetch operation
+        console.error('Fetch problem:', error);
+        memberList.innerHTML = '<li>Failed to load member data.</li>';
+    }
+}
+
+// Call the function to start the process
+fetchAndDisplayMembers();
