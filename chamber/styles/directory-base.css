@@ -110,11 +110,12 @@ h1 {
     /* Creates three columns of equal width */
     gap: 5px;
     /* Puts space between the sections */
-    background-color: gray;
+    background-color: #ddd;
+    column-gap: 10px;
 }
 
 h2 {
-    background-color: #ddd;
+    background-color: gray;
     margin-top: 0;
 }
 
