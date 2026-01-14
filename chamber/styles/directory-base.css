@@ -2,7 +2,8 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Roboto, sans-serif;
 }
 
@@ -72,6 +73,7 @@ header span {
 .navigation li.current {
     background-color: #eee;
 }
+
 .hero article {
     width: 125px;
     height: 125px;
@@ -81,6 +83,7 @@ header span {
     box-shadow: 0 0 0 20px #fff;
     margin: 0 0 1rem 1rem;
 }
+
 .hero {
     position: relative;
 }
@@ -93,26 +96,48 @@ header span {
 
 h1 {
     margin-left: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .container-grid {
     display: grid;
     /* Activates grid on the container */
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 3fr 2fr 2fr;
     /* Creates three columns of equal width */
     gap: 5px;
     /* Puts space between the sections */
+    background-color: gray;
 }
-h2{
-    background-color: #eee;
+
+h2 {
+    background-color: #ddd;
     margin-top: 0;
+}
+
+.left-image {
+    float: left;
+    /* This moves the image to the left */
+    margin-right: 15px;
+    /* Adds space between the image and the text */
+    width: 100px;
+    /* Optional: Sets the image width */
+    height: auto;
+    /* Maintains aspect ratio */
+    margin-top: 1px;
 }
 
 .section-grid {
     padding: 5px;
     border: 1px solid #ccc;
     text-align: center;
+}
+
+.section-grid ul {
+    text-align: left;
+    list-style-type: none;
+}
+.section-grid p{
+    text-align: left;
 }
 
 footer {

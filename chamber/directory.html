@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Eusebio Ngoy Banza/ WDD231">
-    <link rel="icon" href="images/favicon.ico" sizes="32x32">
+    <meta name="author" content="Eusebio Ngoy Banza/ wdd231 web fundamentals">
+    <meta name="description" content="">
     <title>Eusebio chamber of commerce</title>
-    <link rel="stylesheet" href="styles/directory-bases.css">
+    <link rel="icon" href="images/favicon.ico" sizes="16">
+    <link rel="stylesheet" href="styles/directory-base.css">
     <link rel="stylesheet" href="styles/directory-larger.css">
     <link rel="stylesheet" href="styles/directory-normalizes.css">
-    <script href="scripts/directory.js" defer></script>
-    <meta property="og:title" content="Eusebio Chamber of commerce">
-    <meta property="og:url" content="www.yourwebsite.com">
+
+    <meta property="og:title" content="The Eusebio Chamber Of Commerce">
+    <meta property="og:url" content="https://eusebiongoy.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="www.yourwebsite.com">
-    <meta property="og:description" content="This website will serve as a resource hub for businesses in Africa. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.">
+    <meta property="og:description" content="This website will serve as a resource hub for businesses in the Africa continent and worldwide. The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping. It aims to promote local economic growth, support local businesses, and foster a sense of community between the businesses.">
 </head>
+
 <body>
-   <header></header>
+    <header>
+        <img src="images/chamber.svg" alt="site logo" width="512" height="512">
+        <span>Eusebio Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+
     <main>
-       
+        <h1>Home</h1>
+        <di class="container-grid">
+            <section class="section-grid">
+                <h2>Events</h2>
+            </section>
+            <section class="section-grid">
+                <h2>Current Weather</h2>
+                <img src="images/weather.svg" alt="weather" class="left-image">
+                <ul>
+                    <li><a>75&deg;F</a></li>
+                    <li><a>Party Cloudy</a></li>
+                    <li><a>High: 85&deg;F</a></li>
+                    <li><a>Low: 52&deg;F</a></li>
+                    <li><a>Humidity: 34%</a></li>
+                    <li><a>Sunrise: 7:30am</a></li>
+                </ul>
+            </section>
+            <section class="section-grid">
+                <h2>Weather Forecast</h2>
+                <p>Today: 90&deg;F</p>
+                <p>Wednesday: 89&deg;F</p>
+                <p>Thursday: 68&deg;F</p>
+            </section>
+        </div>
+
     </main>
     <footer>
         <div class="social">
-            <a href="https://www.facebook.com/ngoy.eusebio" target="_blank"><img src="images/facebook.svg" alt="Facebook"
+            <a href="https://www.facebook.com/ngoy.eusebio" target="_blank"><img src="images/facebook.svg"
+                    alt="Facebook" width="16" height="16"> </a>
+            <a href="https://github.com/eusebiongoy" target="_blank"><img src="images/github.svg" alt="github"
                     width="16" height="16"> </a>
-            <a href="https://github.com/eusebiongoy" target="_blank"><img src="images/github.svg" alt="github" width="16"
-                    height="16"> </a>
             <a href="https://www.linkedin.com/in/eusebiongoy1982/" target="_blank"><img src="images/linkedin.svg"
                     alt="Linkedin" width="16" height="16"></a>
             <a href="https://x.com" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="16"
@@ -34,8 +75,9 @@
         <p>&copy; 2026 <span id="year"></span>&#10070; Eusebio Ngoy &#10070; Lubumbashi, DR. Congo
         </p>
         <p id="lastModified"></p>
-    
     </footer>
-    
+    <script src="scripts/navigation.js"></script>
+
 </body>
+
 </html>
