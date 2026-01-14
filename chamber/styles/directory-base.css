@@ -191,18 +191,17 @@ h2{
 
      button {
          padding: 0.5rem 1rem;
+         margin: 0;
          font-weight: 700rem;
      }
  }
 
- section {
+ .menu section {
      border: 1px solid rgb(0 0 0 / 10%);
      padding: 0.5rem;
      background-color: #ddd;
 
      a {
-         font-family: Arial, sans-serif;
-         font-size: 1rem;
          color: navy;
      }
  }
