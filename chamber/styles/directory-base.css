@@ -43,7 +43,11 @@ header span {
     content: "\00D7";
     font-size: 3em;
 }
-
+.hero{
+    display: block;
+    width:100%;
+    height: auto;
+}
 .navigation {
     display: none;
 }
