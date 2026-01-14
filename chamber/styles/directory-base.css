@@ -47,6 +47,7 @@ header span {
     display: block;
     width:100%;
     height: auto;
+    position: relative;
 }
 .navigation {
     display: none;
@@ -86,10 +87,6 @@ header span {
     padding: 2px;
     box-shadow: 0 0 0 20px #fff;
     margin: 0 0 1rem 1rem;
-}
-
-.hero {
-    position: relative;
 }
 
 .hero img {
@@ -148,7 +145,6 @@ h2{
     /* Creates two columns of equal width (1fr) */
     grid-template-columns: 1fr 3fr;
     /* Optional: adds space between the grid items */
-    gap: none;
 }
 
 .column {
