@@ -1,11 +1,11 @@
 [
     {
-        "companyName":"Universal Electrical",
-        "CompanyAddress":"70, katumbi c/ Annex, Lubumbashi, DR.Congo",
-        "phoneNumber":"(243)991 595 886",
-        "url":"www.univel.org",
-        "imagePath":"/images/sergekal.png",
-        "membershipLevel":"3",
+        "companyName": "Universal Electrical",
+        "CompanyAddress": "70, katumbi c/ Annex, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)991 595 886",
+        "url": "www.univel.org",
+        "imagePath": "/images/sergekal.png",
+        "membershipLevel": 3,
         "name": "Serge Kalunga",
         "email": "sergekalunga@univel.org"
     },
@@ -15,7 +15,7 @@
         "phoneNumber": "(243)814 928 855",
         "url": "www.euselec.co",
         "imagePath": "/images/russelm.png",
-        "membershipLevel": "1",
+        "membershipLevel": 1,
         "name": "Russel Mwema",
         "email": "russwema@euselec.co"
     },
@@ -25,7 +25,7 @@
         "phoneNumber": "(243)993 302 232",
         "url": "www.songelec.com",
         "imagePath": "/imges/timkal.png",
-        "membershipLevel": "2",
+        "membershipLevel": 2,
         "name": "Timothe Lukusa",
         "email": "timolukus@songelec.com"
     },
@@ -35,7 +35,7 @@
         "phoneNumber": "(243)986 579 755",
         "url": "www.cocolec.co",
         "imagePath": "/images/kadyv.jpg",
-        "membershipLevel": "1",
+        "membershipLevel": 1,
         "name": "Yvon Kazadi",
         "email": "kazadyvona@cocolec.co"
     },
@@ -45,7 +45,7 @@
         "phoneNumber": "(243)822 635 762",
         "url": "www.yuwayako.net",
         "imagePath": "/images/makonzo.jpg",
-        "membershipLevel": "3",
+        "membershipLevel": 3,
         "name": "Kaly Mbuyi",
         "email": "mbuykal@yuwayako.net"
     },
@@ -55,7 +55,7 @@
         "phoneNumber": "(243)994 238 029",
         "url": "www.terminusmarket.com",
         "imagePath": "/images/jambo.jpg",
-        "membershipLevel": "1",
+        "membershipLevel": 1,
         "name": "Cathy Sekele",
         "email": "sekelcath@terminusmarket.com"
     },
@@ -65,7 +65,7 @@
         "phoneNumber": "(243)844 035 017",
         "url": "www.globalconst.com",
         "imagePath": "/images/khaloko.png",
-        "membershipLevel": "2",
+        "membershipLevel": 2,
         "name": "Eric Khaloko",
         "email": "erickhaloko@globalconst.com"
     }
