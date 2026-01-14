@@ -186,12 +186,12 @@ h2{
  .menu {
      margin: 1rem auto;
      padding: 0.5rem;
-     background-color: #333;
+     background-color: var(--bg-color);
      text-align: center;
 
      button {
          padding: 0.5rem 1rem;
-         font-weight: 700;
+         font-weight: 700rem;
      }
  }
 
@@ -202,7 +202,7 @@ h2{
 
      a {
          font-family: Arial, sans-serif;
-         font-size: 0.85rem;
+         font-size: 1rem;
          color: navy;
      }
 
@@ -220,19 +220,13 @@ h2{
      section {
          text-align: center;
 
-         &>* {
-             margin: 0.1rem;
-         }
+        
      }
 
      img {
          border: 1px solid #fff;
          box-shadow: 0 0 1rem #555;
      }
- }
-
- h3 {
-     font-size: 1.2rem;
  }
 
  .list {
@@ -245,9 +239,7 @@ h2{
          margin: 0;
          padding: 0.25rem;
 
-         &>* {
-             margin: 0 1rem;
-         }
+         
 
          img {
              display: none;
