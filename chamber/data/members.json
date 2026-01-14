@@ -40,13 +40,33 @@
         "email": "kazadyvona@cocolec.co"
     },
     {
-        "companyName": "",
-        "CompanyAddress": "36 Du cuivre c/ Lubumbashi, Lubumbashi, DR.Congo",
-        "phoneNumber": "(243)986 579 755",
-        "url": "www.cocolec.co",
-        "imagePath": "",
+        "companyName": "Yuwa Yako business",
+        "CompanyAddress": "25, De boulanger c/ Rwashi, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)822 635 762",
+        "url": "www.yuwayako.net",
+        "imagePath": "/images/makonzo.jpg",
+        "membershipLevel": "3",
+        "name": "Kaly Mbuyi",
+        "email": "mbuykal@yuwayako.net"
+    },
+    {
+        "companyName": "Terminus SPRL",
+        "CompanyAddress": "469, Arpenteur c/ joli city, Kolwezi, DR.Congo",
+        "phoneNumber": "(243)994 238 029",
+        "url": "www.terminusmarket.com",
+        "imagePath": "/images/jambo.jpg",
         "membershipLevel": "1",
-        "name": "Yvon Kazadi",
-        "email": "kazadyvona@cocolec.co"
+        "name": "Cathy Sekele",
+        "email": "sekelcath@terminusmarket.com"
+    },
+    {
+        "companyName": "Global construction",
+        "CompanyAddress": "564, Chuma c/Kamalondo, Lubumbashi, DR.Congo",
+        "phoneNumber": "(243)844 035 017",
+        "url": "www.globalconst.com",
+        "imagePath": "/images/khaloko.png",
+        "membershipLevel": "2",
+        "name": "Eric Khaloko",
+        "email": "erickhaloko@globalconst.com"
     }
 ]
