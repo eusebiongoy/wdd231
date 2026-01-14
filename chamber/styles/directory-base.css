@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #007BFF;
+    --primary-color: darkblue;
     --text-color: #333;
     --bg-color: #f4f4f4;
 }
