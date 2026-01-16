@@ -246,9 +246,7 @@ h2 {
 .list section  h3 {
      font-size: 1rem;
  }
- .list section  &:nth-child(even) {
-     background-color: #bbb;
- }
+
 
 .footer-section {
     flex: 1;
