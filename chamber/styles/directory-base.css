@@ -239,17 +239,15 @@ h2 {
      margin: 0;
      padding: 0.25rem;
 
-     img {
-         display: none;
-     }
-
-     h3 {
-         font-size: 1rem;
-     }
-
-     &:nth-child(even) {
-         background-color: #bbb;
-     }
+ }
+ .list section img {
+       display: none;
+}
+.list section  h3 {
+     font-size: 1rem;
+ }
+ .list section  &:nth-child(even) {
+     background-color: #bbb;
  }
 
 .footer-section {
