@@ -1,3 +1,4 @@
+
 const byuiCourse = {
     code: "WDD231",
     name: "Web Frontend Development I",
@@ -29,7 +30,8 @@ const byuiCourse = {
             } else {
                 this.sections[sectionIndex].enrolled--;
             }
+            renderSections(this.sections);
         }
     },
-};
+}
 export default byuiCourse;
