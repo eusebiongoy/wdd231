@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eusebio Ngoy Banza/ wdd231 web fundamentals">
+    <meta name="description"
+        content="This website will serve as a resource hub for businesses in the city of Lubumbashi in DR. Congo">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Directory-Web Frontend Development project by Eusebio Ngoy</title>
+    <link rel="icon" href="images/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" href="styles/directory-base.css">
+    <link rel="stylesheet" href="styles/directory-larger.css">
+    <link rel="stylesheet" href="styles/directory-normalizes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/directory-navigation.js" defer></script>
+
+    <meta property="og:title" content="The Eusebio Chamber Of Commerce">
+    <meta property="og:url" content="https://eusebiongoy.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://eusebiongoy.github.io/wdd231/images/ngoy.jpg">
+    <meta property="og:description"
+        content="The site will provide information on local events, host networking opportunities, create business directories, and encourage local shopping.">
+</head>
+
+<body>
+    <header>
+        <img src="images/chamber.svg" alt="site logo" width="512" height="512">
+        <span>Lubumbashi Chamber of Commerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="images/commerce.webp" class="hero" alt="home image" loading="lazy" width="600" height="300">
+        <h1>Home</h1>
+        <div class="flex-container">
+            <section class="section">
+                <h2>Events</h2>
+            </section>
+            <section class="section">
+                <h2>Current Weather</h2>
+                <div class="grid-container">
+                    <div class="column">
+                        <img src="images/weather.svg" alt="weather svg" width="100" height="100">
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li><a>75&deg;F</a></li>
+                            <li><a>Party Cloudy</a></li>
+                            <li><a>High: 85&deg;F</a></li>
+                            <li><a>Low: 52&deg;F</a></li>
+                            <li><a>Humidity: 34&deg;F</a></li>
+                            <li><a>Sunrise: 6:30am</a></li>
+                            <li><a>Sunset: 7:00pm</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <h2>Weather Forecast</h2>
+                <p>Today: 90&deg;F</p>
+                <p>Wednesday: 89&deg;F</p>
+                <p>Thursday: 68&deg;F</p>
+            </section>
+        </div>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+            <article class="grid">
+                <section>
+                    <img src="images/sergekal.png" alt="universal-logo" width="100" height="100">
+                    <h3>Universal Electrical</h3>
+                    <p>3</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+                <section>
+                    <img src="images/russelm.png" alt="universal-logo" width="100" height="100">
+                    <h3>Societe Electric</h3>
+                    <p>1</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+                <section>
+                    <img src="images/timkal.png" alt="universal-logo" width="100" height="100">
+                    <h3>Songe Electric</h3>
+                    <p>2</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+                <section>
+                    <img src="images/kadiyv.jpg" alt="universal-logo" width="100" height="100">
+                    <h3>Company Congolaise</h3>
+                    <p>1</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+                <section>
+                    <img src="images/makonzo.jpg" alt="universal-logo" width="100" height="100">
+                    <h3>YuwaYako Business</h3>
+                    <p>2</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+                <section>
+                    <img src="images/jambo.jpg" alt="universal-logo" width="100" height="100">
+                    <h3>Terminus SPRL</h3>
+                    <p>2</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+                <section>
+                    <img src="images/khaloko.png" alt="universal-logo" width="100" height="100">
+                    <h3>Global Construction</h3>
+                    <p>1</p>
+                    <a href="https://eusebiongoy.github.io/wdd231/chamber/data/members.json" target="_blank">detail</a>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-section">
+            <p>Lubumbashi chamber of commerce</p>
+            <ul>
+                <li><a>13, Rue Lubutu</a></li>
+                <li><a>Katanga, DR. Congo</a></li>
+                <li><a>info@lubumbashikat.org</a></li>
+                <li><a>(243) 817188597</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/ngoy.eusebio" target="_blank"><img src="images/facebook.svg"
+                    alt="Facebook" width="16" height="16"> </a>
+            <a href="https://github.com/eusebiongoy" target="_blank"><img src="images/github.svg" alt="github"
+                    width="16" height="16"> </a>
+            <a href="https://www.linkedin.com/in/eusebiongoy1982/" target="_blank"><img src="images/linkedin.svg"
+                    alt="Linkedin" width="16" height="16"></a>
+            <a href="https://x.com" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="16"
+                    height="16"></a>
+        </div>
+        <div class="footer-section">
+            <p>WDD 231 Project</p>
+            <ul>
+                <li><a>Eusebio Ngoy Banza</a></li>
+                <li><a>&copy; 2026 <span id="year"></span>&#10070; Eusebio Ngoy &#10070; DRC</a></li>
+                <li><a id="lastModified">Last modified:</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
