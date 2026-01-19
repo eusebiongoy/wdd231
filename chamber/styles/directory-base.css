@@ -383,7 +383,7 @@ body {
 
 .event-details h3 {
     margin: 0 0 5px 0;
-    color: #007bff;
+    color: green;
 }
 
 .event-details p {
@@ -392,7 +392,7 @@ body {
 }
 
 .event-details a {
-    color: #007bff;
+    color: midnightblue;
     text-decoration: none;
     font-weight: bold;
 }
@@ -425,4 +425,7 @@ body {
     font-size: 2rem;
     color: green;
     margin: .3rem 0;
+}
+.our-client{
+    border: 1px solid black;
 }
