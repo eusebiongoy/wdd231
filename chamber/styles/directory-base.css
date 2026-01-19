@@ -9,9 +9,6 @@
     --bg-color: #f4f4f4;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-}
 
 header {
     display: grid;
@@ -74,7 +71,7 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: black;
+    color: var(--text-color);
     text-decoration: none;
     border-bottom: solid 1px var(--bg-color);
 }
@@ -84,7 +81,7 @@ header span {
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: rgb(111, 117, 117);
 }
 
 .hero article {
@@ -404,8 +401,8 @@ body {
 
 .card {
     border: solid 1px black;
-    background-color: lightskyblue;
-    border-radius: 10px;
+    background-color: skyblue;
+    border-radius: 5px;
     text-align: center;
 }
 
