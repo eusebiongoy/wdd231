@@ -15,7 +15,7 @@ async function fetchAndDisplayMembers() {
 
     try {
         // Fetch the data from the URL and wait for the response
-        const response = await fetch();
+        const response = await fetch(url);
 
         // Check if the request was successful (status code 200-299)
         if (!response.ok) {
