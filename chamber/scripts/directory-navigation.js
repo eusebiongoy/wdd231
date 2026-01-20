@@ -10,12 +10,12 @@ navbutton.addEventListener('click', () => {
 });
 // Define an asynchronous function to fetch and display the data
 async function fetchAndDisplayMembers() {
-    const filePath = './members.json'; // The path to your JSON file
+    const url = 'eusebiongoy.github.io/wdd231/chamber/members.json'; // The path to your JSON file
     const memberList = document.getElementById('member-list');
 
     try {
         // Fetch the data from the URL and wait for the response
-        const response = await fetch(filePath);
+        const response = await fetch(url);
 
         // Check if the request was successful (status code 200-299)
         if (!response.ok) {
