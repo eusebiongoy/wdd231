@@ -81,7 +81,7 @@ header span {
 }
 
 .navigation li.current {
-    background-color: rgb(111, 117, 117);
+    background-color: darkolivegreen;
 }
 
 .hero article {
@@ -355,7 +355,7 @@ body {
 }
 
 .event-date {
-    background-color: #007bff;
+    background-color: darkgreen;
     color: white;
     padding: 10px;
     border-radius: 5px;
