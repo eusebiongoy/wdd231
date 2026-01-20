@@ -9,7 +9,7 @@ navbutton.addEventListener('click', () => {
     navlinks.classList.toggle('show');
 });
 // Define an asynchronous function to fetch and display the data
-async function fetchAndDisplayMembers(filePath) {
+async function fetchAndDisplayMembers() {
     const filePath = './members.json'; // The path to your JSON file
     const memberList = document.getElementById('member-list');
 
@@ -59,3 +59,4 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
+fetchAndDisplayMembers;
