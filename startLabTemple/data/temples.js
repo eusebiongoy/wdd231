@@ -1,5 +1,6 @@
 //https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/
 
+export const url ="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/"
 export const temples = [
     {
         "number": "1",
@@ -210,6 +211,14 @@ export const temples = [
         "dedicated": "October, 1984",
         "person": "Gordon B. Hinckley",
         "path": "dallas-texas/400x250/dallas-temple-lds-1048888-wallpaper.jpg"
+    },
+
+    {
+        "number": "31",
+         "name": "Kinshasa Democratic Republic of the Congo Temple",
+        "dedicated": "April, 2019",
+        "person": "Dale G. Renlund",
+         "path": "kinshasa-democratic-republic-of-congo/320x200/01-Kinshasa-DRCongo-Temple-2208932.jpg"
     }
 ]
 
