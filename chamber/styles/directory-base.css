@@ -344,13 +344,6 @@ body {
 }
 
 
-.card {
-    border: solid 1px black;
-    background-color: skyblue;
-    border-radius: 5px;
-    text-align: center;
-}
-
 .card h2 {
     color: green;
     margin: .3rem 0;
@@ -405,14 +398,11 @@ label {
 }
  .card {
      border: 1px solid #ccc;
+     background-color: skyblue;
      padding: 20px;
      text-align: center;
      border-radius: 8px;
- }
-
- label {
-     display: block;
-     margin-top: 15px;
+     animation-duration: 5s;
  }
 
  input,
