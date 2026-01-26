@@ -11,12 +11,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <title>Join Page-Web Frontend Development project by Eusebio Ngoy</title>
+    <title>Home Page-Web Frontend Development project by Eusebio Ngoy</title>
     <script src="scripts/directory-navigation.js" defer></script>
     <link rel="icon" href="images/favicon.ico" sizes="16x16">
     <link rel="stylesheet" href="styles/directory-base.css">
     <link rel="stylesheet" href="styles/directory-larger.css">
     <link rel="stylesheet" href="styles/directory-normalizes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
 
     <meta property="og:title" content="The Eusebio Chamber Of Commerce">
     <meta property="og:url" content="https://eusebiongoy.github.io/wdd231/chamber/directory.html">
@@ -36,76 +42,17 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li class="current"><a href="join.html">Join</a></li>
+            <li><a href="join.html">Join</a></li>
             <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
 
     <main>
-       <h1>Join Us Please</h1>
-        <div class="flex-container">
-            <section class="section">
-                <h2>Membership Application Form</h2>
-                <label for="firstName">First Name:</label>
-                <input type="text" class="form-control" id="firstName" aria-required="true">
-
-                
-                <label for="lastName">Last Name:</label>
-                <input type="text" class="form-control" id="lastName" aria-required="true">
-
-                
-                <label for="title">Title:</label>
-                <input name="title" id="title" type="text" autocomplete="title" required >
-                
-                <label for="email">Email:</label>
-                <input name="email" id="email" type="email" autocomplete="off" required >
-
-                <label for="yourNumber">cell phone:</label>
-                <input name="number" id="number" type="number" autocomplete="off" required>
-
-                <label for="businessName">Organization:</label>
-                <input name="businessName" id="businessName" type="text" autocomplete="yourOrganization" required>
-
-                <form action="thankyou.html" method="GET">
-                    <!-- You can add form fields here if needed, like: -->
-                    <!-- <input type="text" name="username"> -->
-                    <button type="submit">Submit</button>
-                </form>
-                
-
-            </section>
-            <section class="section">
-                <h2>Membership levels</h2>
-                <form action="/your-submit-endpoint" method="post">
-                    <fieldset>
-                        <legend>Select Your Membership Level:</legend>
-                
-                        <div>
-                            <input type="radio" id="basic" name="membership_level" value="basic" required>
-                            <label for="basic">Basic (basic)</label>
-                        </div>
-                
-                        <div>
-                            <input type="radio" id="silver" name="membership_level" value="silver">
-                            <label for="silver">Silver (silver)</label>
-                        </div>
-                
-                        <div>
-                            <input type="radio" id="gold" name="membership_level" value="gold">
-                            <label for="gold">Gold (gold)</label>
-                        </div>
-                
-                        <div>
-                            <input type="radio" id="platinum" name="membership_level" value="platinum">
-                            <label for="platinum">Platinum (platinum)</label>
-                        </div>
-                    </fieldset>
-                
-                    <button type="submit">Sign Up</button>
-                </form>
-            </section>
-            
+        <div class="hero">
+            <img src="images/chamberjoin.webp" class="hero" alt="home image" loading="lazy" width="300" height="200">
+            <h1>Thank You for Joining</h1>
         </div>
+        
     </main>
 
     <footer class="site-footer">

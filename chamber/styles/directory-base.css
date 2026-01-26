@@ -371,3 +371,81 @@ body {
 .our-client{
     border: 1px solid black;
 }
+label {
+    display: block;
+    margin-top: 1rem;
+}
+.hero article img {
+    width: 125px;
+    height: 125px;
+    border: 1px solid skyblue;
+    float: right;
+    padding: 2px;
+    box-shadow: 0 0 0 20px #fff;
+    margin: 0 0 1rem 1rem;
+}
+.hero h1{
+    color:aqua;
+    background-color: #333;
+    position: absolute;
+    top: 10px;
+    width: 65%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+}
+
+legend {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.membership-option {
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 0.5rem;
+    /* Optional: customize radio button appearance */
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    color: #555;
+}
+
+button {
+    color: black;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
