@@ -30,3 +30,16 @@
         border: none;
     }
 }
+@media (min-width: 600px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* Tablet */
+    }
+}
+
+@media (min-width: 900px) {
+    .cards-container {
+        grid-template-columns: repeat(4, 1fr);
+        /* Desktop */
+    }
+}

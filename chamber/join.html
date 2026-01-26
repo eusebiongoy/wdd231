@@ -11,12 +11,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-    <title>Join Page-Web Frontend Development project by Eusebio Ngoy</title>
-    <script src="scripts/directory-navigation.js" defer></script>
+    <title>Directory-Web Frontend Development project by Eusebio Ngoy</title>
     <link rel="icon" href="images/favicon.ico" sizes="16x16">
     <link rel="stylesheet" href="styles/directory-base.css">
     <link rel="stylesheet" href="styles/directory-larger.css">
     <link rel="stylesheet" href="styles/directory-normalizes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/directory-navigation.js" defer></script>
 
     <meta property="og:title" content="The Eusebio Chamber Of Commerce">
     <meta property="og:url" content="https://eusebiongoy.github.io/wdd231/chamber/directory.html">
@@ -35,77 +41,90 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li class="current"><a href="join.html">Join</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
             <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
 
     <main>
-       <h1>Join Us Please</h1>
-        <div class="flex-container">
-            <section class="section">
-                <h2>Membership Application Form</h2>
-                <label for="firstName">First Name:</label>
-                <input type="text" class="form-control" id="firstName" aria-required="true">
-
-                
-                <label for="lastName">Last Name:</label>
-                <input type="text" class="form-control" id="lastName" aria-required="true">
-
-                
-                <label for="title">Title:</label>
-                <input name="title" id="title" type="text" autocomplete="title" required >
-                
-                <label for="email">Email:</label>
-                <input name="email" id="email" type="email" autocomplete="off" required >
-
-                <label for="yourNumber">cell phone:</label>
-                <input name="number" id="number" type="number" autocomplete="off" required>
-
-                <label for="businessName">Organization:</label>
-                <input name="businessName" id="businessName" type="text" autocomplete="yourOrganization" required>
-
-                <form action="thankyou.html" method="GET">
-                    <!-- You can add form fields here if needed, like: -->
-                    <!-- <input type="text" name="username"> -->
-                    <button type="submit">Submit</button>
-                </form>
-                
-
+        
+        <!-- Application Form -->
+        <form action="thankyou.html" method="get">
+        
+            <label>
+                First Name:
+                <input type="text" name="fname" title="First Name" autocomplete="given-name" required>
+            </label>
+        
+            <label>
+                Last Name:
+                <input type="text" name="lname" title="Last Name" autocomplete="family-name" required>
+            </label>
+        
+            <label>
+                Organizational Title:
+                <input type="text" name="org-title" title="Organizational Title" autocomplete="organization-title"
+                    pattern="[A-Za-z\s-]{7,}" placeholder="Minimum 7 alpha characters">
+            </label>
+        
+            <label>
+                Email Address:
+                <input type="email" name="email" title="Email Address" autocomplete="email" required
+                    placeholder="example@domain.com">
+            </label>
+        
+            <label>
+                Mobile Phone Number:
+                <input type="tel" name="phone" title="Mobile Phone Number" autocomplete="tel" required>
+            </label>
+        
+            <label>
+                Business/Organization Name:
+                <input type="text" name="organization" title="Organization Name" autocomplete="organization" required>
+            </label>
+        
+            <label>
+                Membership Level:
+                <select name="membership-level" title="Select Membership Level" required>
+                    <option value="" disabled selected>Select a level...</option>
+                    <option value="np">NP Membership (Non-Profit)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+        
+            <label>
+                Business Description:
+                <textarea name="description" title="Business Description"></textarea>
+            </label>
+            <section class="cards-container">
+                <div class="card">
+                    <h3>NP Membership</h3>
+                    <a href="#">More Information</a>
+                </div>
+                <div class="card">
+                    <h3>Bronze Membership</h3>
+                    <a href="#">More Information</a>
+                </div>
+                <div class="card">
+                    <h3>Silver Membership</h3>
+                    <a href="#">More Information</a>
+                </div>
+                <div class="card">
+                    <h3>Gold Membership</h3>
+                    <a href="#">More Information</a>
+                </div>
             </section>
-            <section class="section">
-                <h2>Membership levels</h2>
-                <form action="/your-submit-endpoint" method="post">
-                    <fieldset>
-                        <legend>Select Your Membership Level:</legend>
-                
-                        <div>
-                            <input type="radio" id="basic" name="membership_level" value="basic" required>
-                            <label for="basic">Basic (basic)</label>
-                        </div>
-                
-                        <div>
-                            <input type="radio" id="silver" name="membership_level" value="silver">
-                            <label for="silver">Silver (silver)</label>
-                        </div>
-                
-                        <div>
-                            <input type="radio" id="gold" name="membership_level" value="gold">
-                            <label for="gold">Gold (gold)</label>
-                        </div>
-                
-                        <div>
-                            <input type="radio" id="platinum" name="membership_level" value="platinum">
-                            <label for="platinum">Platinum (platinum)</label>
-                        </div>
-                    </fieldset>
-                
-                    <button type="submit">Sign Up</button>
-                </form>
-            </section>
-            
-        </div>
+        
+            <!-- Hidden Timestamp -->
+            <input type="hidden" name="timestamp" id="timestamp">
+        
+            <input type="submit" value="Submit Application">
+           
+        </form>
+
     </main>
 
     <footer class="site-footer">
@@ -136,7 +155,6 @@
                 <li><a id="lastModified">Last modified:</a></li>
             </ul>
         </div>
-        <script src="scripts/directory-date.js"></script>
     </footer>
 
 </body>

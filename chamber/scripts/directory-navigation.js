@@ -63,3 +63,18 @@ function showList() {
     display.classList.remove("grid");
 }
 fetchAndDisplayMembers;
+
+function openModal(modalId) {
+    document.getElementById(modalId).style.display = "block";
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+}
+
+// Close modal if user clicks outside of the content box
+window.onclick = function (event) {
+    if (event.target.className === 'modal') {
+        event.target.style.display = "none";
+    }
+}

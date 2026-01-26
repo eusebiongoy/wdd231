@@ -32,3 +32,4 @@ function displayResults(data) {
     myGraphic.setAttribute('alt', data.weather[0].description)
 }
 apiFetch();
+document.getElementById('timestamp').value = new Date().toISOString();
