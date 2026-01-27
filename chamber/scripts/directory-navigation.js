@@ -1,7 +1,6 @@
 
 
 
-
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
 const navbutton = document.querySelector('#ham-btn');
@@ -13,7 +12,7 @@ navbutton.addEventListener('click',() => {
 });
 // Define an asynchronous function to fetch and display the data
 async function fetchAndDisplayMembers() {
-    const url = `./data/members.json`; // The path to your JSON file
+    const url = `./data/members.js`; // The path to your JSON file
     const memberList = document.getElementById('member-list');
 
     try {
