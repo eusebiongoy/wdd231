@@ -402,7 +402,7 @@ label {
      padding: 20px;
      text-align: center;
      border-radius: 8px;
-     animation: shuffle 3s infinite;
+     animation: shuffle 10s infinite;
  }
  .card:nth-child(1) {
      animation-delay: 10s;
