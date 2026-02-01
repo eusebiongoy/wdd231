@@ -13,25 +13,24 @@
     
     
     <link rel="icon" href="#" sizes="16x16">
-    <link rel="stylesheet" href="euselec-base.css">
-    <link rel="stylesheet" href="#">
-    <link rel="stylesheet" href="#">
-    <link rel="preconnect" href="#">
+    <link rel="stylesheet" href="styles/euselec-base.css">
+    <link rel="stylesheet" href="styles/euselec-larger.css">
+    <link rel="stylesheet" href="styles/euselec-normalizes.css">
     
     <title>euselec-Project, web Frontend Development project by Eusebio Ngoy</title>
     
-    <script src="#"></script>
+    <script src="scripts/euselec-navigation.js"></script>
     
     <meta property="og:title" content="#">
     <meta property="og:url" content="https://eusebiongoy.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://eusebiongoy.github.io/wdd231/images/ngoy.jpg">
     <meta property="og:description"
-        content="#">
+        content="the site purpose for the final project of the term. the performance of the student may be evaluated">
 </head>
 <body>
     <header>
         <h1>The Euselec Project</h1>
-        <p>This is the name of a site web that called euselec.org</p>
+        <p>This is the name of a site web that called euselec.org That has the role of installing electricity in different home and doing some electrical maintenance </p>
     </header>
     <main>
         <h2>The purpose</h2>
@@ -48,8 +47,8 @@
         </ul>
         <h2>My Color Scheme</h2>
         <ul>
-            <li><a>Primary color: #d72631</a></li>
-            <li><a>Secondary color: #a2d5c6</a></li>
+            <li><a>Primary color: #d72631 for the heading</a></li>
+            <li><a>Secondary color: #a2d5c6 for the body </a></li>
             <li><a>Tierce color: #077b8a and #5c3c92</a></li>
         </ul>
         <h2>Typography</h2>
@@ -62,7 +61,38 @@
     <iframe src="images/projeuse.pdf" width="50%" height="600px"></iframe>
 
     </main>
-    <footer></footer>
+    <footer>
+        <footer class="site-footer">
+            <div class="footer-section">
+                <p>The Euselec company </p>
+                <ul>
+                    <li><a>13, Rue Lubutu</a></li>
+                    <li><a>Katanga, DR. Congo</a></li>
+                    <li><a>info@lubumbashikat.org</a></li>
+                    <li><a>(243) 817188597</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/ngoy.eusebio" target="_blank"><img src="images/facebook.svg" alt="Facebook"
+                        width="16" height="16"> </a>
+                <a href="https://github.com/eusebiongoy" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                        height="16"> </a>
+                <a href="https://www.linkedin.com/in/eusebiongoy1982/" target="_blank"><img src="images/linkedin.svg"
+                        alt="Linkedin" width="16" height="16"></a>
+                <a href="https://x.com" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="16"
+                        height="16"></a>
+            </div>
+            <div class="footer-section">
+                <p>WDD 231 Final Project  </p>
+                <ul>
+                    <li><a>Eusebio Ngoy Banza</a></li>
+                    <li><a>&copy; 2026 <span id="year"></span>&#10070; Eusebio Ngoy &#10070; DRC</a></li>
+                    <li><a id="lastModified">Last modified:</a></li>
+                </ul>
+            </div>
+            <script src="scripts/euselec-date.js"></script>
+        </footer>
+    </footer>
     
 </body>
 </html>
