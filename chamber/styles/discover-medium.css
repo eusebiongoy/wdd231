@@ -1,0 +1,73 @@
+
+#grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+@media (min-width: 320px) {
+    #grid-container {
+        grid-template-areas:
+            "c1" "c2" "c3" "c4" "c5" "c6" "c7" "c8";
+    }
+}
+
+@media (min-width: 641px) {
+    #grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "c1 c1"
+            "c2 c3"
+            "c4 c5"
+            "c6 c6"
+            "c7 c8";
+    }
+}
+
+@media (min-width: 1025px) {
+    #grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "c1 c1 c2 c3"
+            "c4 c5 c5 c5"
+            "c6 c7 c8 c8";
+    }
+}
+
+.card-1 {
+    grid-area: c1;
+}
+
+.card-2 {
+    grid-area: c2;
+}
+
+.card-3 {
+    grid-area: c3;
+}
+
+.card-4 {
+    grid-area: c4;
+}
+
+.card-5 {
+    grid-area: c5;
+}
+
+.card-6 {
+    grid-area: c6;
+}
+
+.card-7 {
+    grid-area: c7;
+}
+
+.card-8 {
+    grid-area: c8;
+}
