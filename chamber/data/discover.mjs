@@ -1,62 +1,42 @@
-
-        export const places =  [
-            {
-                "name": "Virunga National Park",
-                "address": "Virunga National Park Headquarters, Goma, North Kivu, DRC",
-                "description": "Africa’s oldest national park and a UNESCO World Heritage Site, famous for mountain gorillas, volcanoes, savannas, and rich biodiversity.",
-                "estimated_cost_usd": "Park activities vary; gorilla trekking approx. 400 USD",
-                "photo_url": "images/virunga.webp"
-                
-            },
-            {
-                "name": "Mount Nyiragongo",
-                "address": "Virunga National Park, near Goma, North Kivu, DRC",
-                "description": "One of the world’s most active volcanoes, known for its massive lava lake and guided hiking experiences.",
-                "estimated_cost_usd": "Volcano trek approx. 300–600 USD",
-                "photo_url": "images/nyiragongo.webp"
-            },
-            {
-                "name": "Kahuzi-Biega National Park",
-                "address": "Near Bukavu, South Kivu, DRC",
-                "description": "UNESCO World Heritage Site protecting eastern lowland gorillas and vast tropical rainforest ecosystems.",
-                "estimated_cost_usd": "Gorilla trekking permit approx. 400 USD",
-                "photo_url": "images/gorillatours.webp"
-            },
-            {
-                "name": "A Motel",
-                "address": "Lualaba River, near Kisangani, Tshopo Province, DRC",
-                "description": "A series of seven powerful cataracts on the Congo River, known for scenic beauty and traditional Wagenia fishing practices.",
-                "estimated_cost_usd": "Free (local guide fees may apply)",
-                "photo_url": "images/gorillapark.webp"
-            },
-            {
-                "name": "Lake Kivu & Idjwi Island",
-                "address": "Lake Kivu, near Goma and Bukavu, Eastern DRC",
-                "description": "Scenic freshwater lake with beaches, boat rides, and the peaceful Idjwi Island, ideal for cycling and cultural tours.",
-                "estimated_cost_usd": "Free access; boat tours vary",
-                "photo_url": "images/congoSafari.webp"
-
-            },
-            {
-                "name": "Inga Central Energy",
-                "address": "Les Petites Chutes de Lukaya, Kinshasa, DRC",
-                "description": "The world’s only sanctuary dedicated to rescuing and rehabilitating orphaned bonobos.",
-                "estimated_cost_usd": "Entrance approx. 10 USD",
-                "photo_url": "images/inga.webp"
-            },
-            {
-                "name": "Salonga National Park",
-                "address": "Central Congo Basin, DRC",
-                "description": "The largest tropical rainforest reserve in Africa, home to bonobos, forest elephants, and rare wildlife.",
-                "estimated_cost_usd": "Costs vary due to remote access and guided expeditions",
-                "photo_url": "images/okapi.webp"
-            },
-            {
-                "name": "Unity Places",
-                "address": "Lubumbashi, DRC",
-                "description": "Known as the copper capital and here is the place showing the unity of four provinces born from this area.",
-                "estimated_cost_usd": "Variable (depends on activities)",
-                "photo_url": "images/lubumbashi.webp"
-            }
-        ]
-
+export const places = [
+    {
+        "name": "Virunga National Park",
+        "address": "North Kivu Province, near Goma, Democratic Republic of the Congo",
+        "description": "Africa’s oldest national park and a UNESCO World Heritage Site, known for mountain gorillas, volcanoes, savannas, lakes, and exceptional biodiversity."
+    },
+    {
+        "name": "Mount Nyiragongo",
+        "address": "Virunga National Park, approximately 12 km north of Goma, North Kivu Province, DRC",
+        "description": "One of the world’s most active volcanoes, famous for its large and persistent lava lake and challenging guided hikes."
+    },
+    {
+        "name": "Congo River",
+        "address": "Flows across central and western Democratic Republic of the Congo",
+        "description": "The second-longest river in Africa and one of the deepest in the world, vital for transportation, trade, culture, and history."
+    },
+    {
+        "name": "Livingstone Falls",
+        "address": "Lower Congo River, between Kinshasa and Matadi, Kongo Central Province, DRC",
+        "description": "A dramatic series of rapids and waterfalls along the Congo River, historically significant and visually powerful."
+    },
+    {
+        "name": "Lola ya Bonobo Sanctuary",
+        "address": "Petites Chutes de la Lukaya, near Kimwenza, Kinshasa, DRC",
+        "description": "A wildlife sanctuary and rehabilitation center dedicated to orphaned bonobos, offering conservation education and guided visits."
+    },
+    {
+        "name": "Kahuzi-Biega National Park",
+        "address": "Near Bukavu, South Kivu Province, Democratic Republic of the Congo",
+        "description": "A UNESCO World Heritage Site protecting tropical rainforest and home to the endangered eastern lowland gorillas."
+    },
+    {
+        "name": "Upemba National Park",
+        "address": "Haut-Lomami, Lualaba, and Haut-Katanga Provinces, southeastern DRC",
+        "description": "A remote national park featuring wetlands, lakes, grasslands, and diverse wildlife, ideal for eco-tourism and birdwatching."
+    },
+    {
+        "name": "Kinshasa",
+        "address": "Kinshasa Province, western Democratic Republic of the Congo",
+        "description": "The capital city of the DRC, known for its vibrant music scene, art, nightlife, markets, and cultural influence across Africa."
+    }
+]
