@@ -1,0 +1,59 @@
+/* Base styles (small screens first) */
+
+
+
+
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* one card per row on small screens */
+    gap: 1rem;
+}
+
+article {
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "image"
+    "description"
+    "address"
+    "button";
+}
+
+figure {
+    margin: 0;
+    grid-area: image;
+}
+
+#cards img {
+    width: 100%;
+    height: auto;
+    display: block;
+    grid-area: title;
+}
+
+address {
+    font-style: normal;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    grid-area: address;
+}
+
+p {
+    font-size: 0.95rem;
+    grid-area: description;
+}
+
+button {
+    width: 100%;
+    /* full-width button for easy tapping */
+    padding: 0.6rem;
+    font-size: 1rem;
+    grid-area: button;
+}

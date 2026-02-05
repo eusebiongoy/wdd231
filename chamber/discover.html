@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +7,24 @@
     <meta name="description"
         content="This website will serve as a resource hub for businesses in the city of Lubumbashi in DR. Congo">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-
-    <title>Discover Page, web Frontend Development project by Eusebio Ngoy</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Home Page-Web Frontend Development project by Eusebio Ngoy</title>
+    <script src="scripts/directory-navigation.js" defer></script>
     <link rel="icon" href="images/favicon.ico" sizes="16x16">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/directory-base.css">
     <link rel="stylesheet" href="styles/directory-larger.css">
-    <link rel="stylesheet" href="styles/directory-normalizes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <script src="scripts/directory-navigation.js" defer></script>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    
+    
     <meta property="og:title" content="The Eusebio Chamber Of Commerce">
     <meta property="og:url" content="https://eusebiongoy.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://eusebiongoy.github.io/wdd231/images/ngoy.jpg">
@@ -33,18 +38,21 @@
         <span>Lubumbashi Chamber of Commerce</span>
         <button id="ham-btn" class="hamburger"></button>
     </header>
-
+    
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li class="current"><a href="discover.html">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1>The Republic Democratic of Congo</h1>
+    <h1>Places of Interest in the Democratic Republic of the Congo</h1>
+    
+    <!-- Cards will be generated here by JavaScript -->
+    <section id="cards"></section>
        
     </main>
 
@@ -77,7 +85,6 @@
             </ul>
         </div>
     </footer>
+    <script src="scripts/discover.js" type="module"></script>
 
-</body>
-
-</html>
+</body

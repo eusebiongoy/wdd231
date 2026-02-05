@@ -12,7 +12,7 @@ navbutton.addEventListener('click',() => {
 });
 // Define an asynchronous function to fetch and display the data
 async function fetchAndDisplayMembers() {
-    const url = `./data/members.js`; // The path to your JSON file
+    const url = `./data/members.mjs`; // The path to your JSON file
     const memberList = document.getElementById('member-list');
 
     try {
