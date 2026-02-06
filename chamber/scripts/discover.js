@@ -30,3 +30,33 @@ document.addEventListener("DOMContentLoaded", () => {
         cards.appendChild(card);
     });
 });
+
+    const messageEl = document.getElementById("visit-message");
+
+    const lastVisit = localStorage.getItem("lastVisit");
+    const now = Date.now();
+
+    let message = "";
+
+    if (!lastVisit) {
+        // First visit
+        message = "Welcome! Let us know if you have any questions.";
+  } else {
+    const diffTime = now - Number(lastVisit);
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+    if (diffDays < 1) {
+        message = "Back so soon! Awesome!";
+    } else if (diffDays === 1) {
+        message = "You last visited 1 day ago.";
+    } else {
+        message = `You last visited ${diffDays} days ago.`;
+    }
+  }
+
+    // Display message
+    messageEl.textContent = message;
+
+    // Store current visit
+    localStorage.setItem("lastVisit", now);
+

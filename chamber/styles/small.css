@@ -1,9 +1,5 @@
 /* Base styles (small screens first) */
 
-
-
-
-
 #cards {
     display: grid;
     grid-template-columns: 1fr;
