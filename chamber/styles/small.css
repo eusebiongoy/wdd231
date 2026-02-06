@@ -32,6 +32,10 @@ figure {
     height: auto;
     display: block;
     grid-area: title;
+    
+}
+.opac {
+    opacity: 0.5;
 }
 
 address {
