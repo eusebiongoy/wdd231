@@ -139,3 +139,10 @@ article.list .card-content {
  button:hover {
      background-color: #0b7dda;
  }
+
+ .btn-primary {
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     background: #0b7dda;
+ }
