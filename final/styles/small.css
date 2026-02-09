@@ -126,7 +126,6 @@ h2 {
     /* Makes all sections grow equally to fill the container width */
     background-color: var(--bg-color);
     border: 1px solid #ccc;
-    padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -170,12 +169,7 @@ h2 {
 }
 
 /* Optional: a media query to stack columns on small screens */
-@media (max-width: 600px) {
-    .grid-container {
-        /* Changes to a single column layout on small screens */
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
 
 .site-footer {
     display: flex;

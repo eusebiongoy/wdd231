@@ -36,13 +36,23 @@
         grid-template-columns: repeat(2, 1fr);
         /* Tablet */
     }
+
+        @media (max-width: 600px) {
+            .grid-container {
+                /* Changes to a single column layout on small screens */
+                grid-template-columns: 1fr 1fr;
+            }
+        }
 }
 
 @media (min-width: 900px) {
     .cards-container {
         grid-template-columns: repeat(4, 1fr);
         /* Desktop */
-    }
+    } #showHere {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
 }
 #showHere {
     display: grid;
@@ -51,12 +61,6 @@
     gap: 1.5rem;
 }
 
-/* Large screens */
-@media (min-width: 900px) {
-    #showHere {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 
 .project-card {
     border: 1px solid #ccc;
