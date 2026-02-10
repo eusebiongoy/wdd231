@@ -36,6 +36,7 @@
         grid-template-columns: repeat(2, 1fr);
         /* Tablet */
     }
+    
 
         @media (max-width: 600px) {
             .grid-container {
