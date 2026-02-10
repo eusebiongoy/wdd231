@@ -1,23 +1,16 @@
-
+/* medium.css */
 .section {
-    
-    /* Both sections take up equal available space */
     padding: 20px;
     box-sizing: border-box;
-    /* Ensures padding/border is included in the width */
     text-align: center;
-    display: block;
-    /* Center content vertically and horizontally within each section */
-    
-
-    /* Smooth color transition for JS */
 }
 
 .left-section {
     background-color: #eee;
     color: black;
 }
-.left-section p{
+
+.left-section p {
     text-align: center;
     padding: 2px;
     margin: 2px;

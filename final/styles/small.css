@@ -1,3 +1,4 @@
+/* small.css */
 * {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     box-sizing: border-box;
@@ -8,7 +9,6 @@
     --text-color: #333;
     --bg-color: #f4f4f4;
 }
-
 
 header {
     display: grid;
@@ -100,7 +100,6 @@ header span {
     height: auto;
 }
 
-
 h2 {
     padding-top: 0;
     margin-top: 0;
@@ -110,48 +109,23 @@ h2 {
 .flex-container {
     display: flex;
     justify-content: space-between;
-    /* Distributes space evenly between sections */
     gap: 10px;
-    /* Adds space between the sections */
     padding: 20px;
     background-color: var(--bg-color);
 }
 
-.section {
-    flex: 1;
-    /* Makes all sections grow equally to fill the container width */
-    background-color: var(--bg-color);
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Optional: Basic styling for responsiveness */
-@media (max-width: 768px) {
-    .flex-container {
-        flex-direction: column;
-        /* Stacks sections vertically on smaller screens */
-    }
-}
-
 .section-1 {
     display: grid;
-    /* Makes the sub-columns inside sit side by side */
     gap: 10px;
-    /* Adds space between the two sub-columns */
     background-color: #f0f8ff;
 }
 
 .grid-container {
-    /* Sets up the grid container */
     display: grid;
-    /* Creates two columns of equal width (1fr) */
     grid-template-columns: 1fr 3fr;
-    /* Optional: adds space between the grid items */
 }
 
 .column {
-    /* Optional: styles for appearance */
     padding: 10px;
 }
 
@@ -164,32 +138,23 @@ h2 {
     list-style: none;
 }
 
-/* Optional: a media query to stack columns on small screens */
-
-
 .site-footer {
     display: flex;
     justify-content: space-between;
-    /* Distributes space between sections */
     background-color: #eee;
     color: black;
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
-    /* Ensures padding is included in width calculation */
 }
-
 
 .footer-section {
     flex: 1;
-    /* Makes each section take up equal width */
     padding: 0 15px;
-    /* Adds space between sections */
 }
 
 .footer-section p {
     color: var(--primary-color);
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: large;
 }
 
@@ -211,18 +176,6 @@ h2 {
 
 .footer-section ul li a:hover {
     text-decoration: underline;
-}
-
-/* Optional: Add basic responsiveness */
-@media (max-width: 768px) {
-    .site-footer {
-        flex-direction: column;
-        /* Stacks sections vertically on smaller screens */
-    }
-
-    .footer-section {
-        padding: 10px 0;
-    }
 }
 
 .social {
@@ -248,13 +201,6 @@ h2 {
 
 .social a:hover {
     background-color: lightblue;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
 }
 
 #mydialog div {
@@ -286,3 +232,17 @@ body {
     background-color: rgba(255 255 255);
 }
 
+/* Responsiveness */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .site-footer {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        padding: 10px 0;
+    }
+}

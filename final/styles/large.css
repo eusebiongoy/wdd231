@@ -1,3 +1,4 @@
+/* large.css */
 @media only screen and (min-width: 38rem) {
 
     header,
@@ -7,7 +8,6 @@
         max-width: 900px;
         margin: 0 auto;
     }
-
 
     .hamburger {
         display: none;
@@ -34,34 +34,29 @@
 @media (min-width: 600px) {
     .cards-container {
         grid-template-columns: repeat(2, 1fr);
-        /* Tablet */
     }
-    
 
-        @media (max-width: 600px) {
-            .grid-container {
-                /* Changes to a single column layout on small screens */
-                grid-template-columns: 1fr 1fr;
-            }
+    @media (max-width: 600px) {
+        .grid-container {
+            grid-template-columns: 1fr 1fr;
         }
+    }
 }
 
 @media (min-width: 900px) {
     .cards-container {
         grid-template-columns: repeat(4, 1fr);
-        /* Desktop */
-    } #showHere {
-         grid-template-columns: repeat(2, 1fr);
-     }
+    }
 
+    #showHere {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 #showHere {
     display: grid;
-    grid-template-columns: 1fr;
-    /* default: 1 column (mobile) */
     gap: 1.5rem;
 }
-
 
 .project-card {
     border: 1px solid #ccc;
@@ -80,5 +75,4 @@
     width: 100%;
     height: 220px;
     object-fit: cover;
-    display: block;
 }
