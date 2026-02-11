@@ -150,8 +150,8 @@ h2 {
 
 /* ====== Footer ====== */
 .site-footer {
-    background-color: #eee;
-    color: #fff;
+    background-color: #aaa;
+    color: #333;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -192,8 +192,8 @@ h2 {
     transform: scale(1.1);
 }
 .site-footer p{
-    color: #1877f2;
     text-align: center;
+    color: #275690;
 }
 
 #mydialog div {
