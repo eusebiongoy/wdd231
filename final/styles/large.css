@@ -36,12 +36,13 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (max-width: 600px) {
-        .grid-container {
-            grid-template-columns: 1fr 1fr;
-        }
-    }
 }
+
+ @media (max-width: 600px) {
+     .grid-container {
+         grid-template-columns: 1fr 1fr;
+     }
+ }
 
 @media (min-width: 900px) {
     .cards-container {

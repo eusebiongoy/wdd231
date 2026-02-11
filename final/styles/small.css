@@ -47,12 +47,6 @@ header span {
     font-size: 3em;
 }
 
-.hero {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
-}
 
 .navigation {
     display: none;
@@ -78,26 +72,42 @@ header span {
 
 .navigation a:hover {
     background-color: orange;
+    color: whitesmoke;
 }
 
 .navigation li.current {
     background-color: darkgrey;
 }
 
-.hero article {
-    width: 125px;
-    height: 125px;
-    border: 1px solid var(--primary-color);
-    float: right;
-    padding: 2px;
-    box-shadow: 0 0 0 20px var(--bg-color);
-    margin: 0 0 1rem 1rem;
+/* Hero container flex setup */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    /* allow wrapping on small screens */
+    justify-content: flex-end;
+    /* push article to the right */
+    gap: 1rem;
+    /* space between image and article */
+    align-items: flex-start;
+    /* align tops */
 }
 
+/* Hero image responsive */
 .hero img {
-    display: block;
-    width: 600px;
+    flex: 1 1 300px;
+    /* grows/shrinks with min width 300px */
+    max-width: 100%;
     height: auto;
+}
+
+/* Hero article responsive */
+.hero article {
+    flex: 0 1 250px;
+    /* fixed-ish width, shrinks on small screens */
+    padding: 1rem;
+    background-color: #ddd;
+    /* optional */
+    border: 1px solid #aaa;
 }
 
 h2 {
