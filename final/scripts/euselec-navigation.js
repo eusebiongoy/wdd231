@@ -27,3 +27,14 @@ navbutton.addEventListener('click', () => {
         localStorage.setItem('navMenuState', 'closed');
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const iframe = document.querySelector('iframe[data-src]');
+    const observer = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) {
+            iframe.src = iframe.dataset.src;
+            observer.unobserve(iframe);
+        }
+    });
+    observer.observe(iframe);
+});
