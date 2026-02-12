@@ -1,4 +1,4 @@
-// Display last modified date
+// Display last modified date (if not already handled in another file)
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
 // Navigation menu elements
@@ -28,6 +28,15 @@ navbutton.addEventListener('click', () => {
     }
 });
 
+// Navigate to address page when button is clicked
+const addressBtn = document.getElementById('view-address-btn');
+if (addressBtn) {
+    addressBtn.addEventListener('click', () => {
+        window.location.href = 'address.html';
+    });
+}
+
+// Lazy-load iframe
 document.addEventListener("DOMContentLoaded", function () {
     const iframe = document.querySelector('iframe[data-src]');
     const observer = new IntersectionObserver(entries => {
