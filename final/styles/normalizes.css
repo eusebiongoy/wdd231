@@ -132,17 +132,3 @@ article.list .card-content {
      background: #0b7dda;
  }
 
- iframe {
-     width: 90%;
-     /* Adjust width of video */
-     max-width: 800px;
-     /* Prevent it from being too wide */
-     aspect-ratio: 16 / 9;
-     /* Keeps proper 16:9 ratio */
-     display: block;
-     /* Ensures margin works */
-     margin: 0 auto;
-     /* Center horizontally */
-     border: none;
-     /* Remove default border */
- }
